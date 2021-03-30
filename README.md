@@ -1,4 +1,4 @@
-# _text-analyzer_
+# _text-analyzer_ 🎹
 #### _An application to find the selected word in a sentence and highlight them._
 #### By _Jsse White_
 ## Technologies Used
