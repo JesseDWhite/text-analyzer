@@ -34,10 +34,13 @@ function numberOfOccurrencesInText(word, text) {
 
 //user-interface logic
 function boldPassage(word, text) {
+    if (noInputtedWord(word, text)) {
+        return "";
+    }
     let htmlString = "<p>"
     let textArray = text.split(" ");
     textArray.forEach(function (element, index) {
-        if (word === element) {
+        if (element.toLowerCase().includes(word.toLowerCase())) {
             htmlString = htmlString.concat("<b>" + element + "</b>");
         } else {
             htmlString = htmlString.concat(element);
