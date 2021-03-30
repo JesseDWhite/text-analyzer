@@ -9,19 +9,17 @@
 ## Description
 This application will take any amount of user input and will then tell them the total number of words used in the given paragraph. The user can then select a certain word that they want to highlight and it will highlight all words in the paragraph that match that description.
 ## Setup/Installation Requirements
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* __
+* __
+* __
+* __
+* __
 ## Known Bugs
-* _Any known issues_
-* _should go here_
+* _If a word contains a match at all, it will highlight that word. Example: "check" in "paycheck" will come back as a match if the word you are looking for is "check"._
 ## License
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT (C) 2021 Jesse White 2021_
 ## Contact Information
-_{Add your contact information here.}_
+Jesse White _jesse.white6@gmail.com_
 
 ## Specs
 
