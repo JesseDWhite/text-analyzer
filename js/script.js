@@ -64,5 +64,6 @@ $(document).ready(function () {
         $("#total-count").html(wordCount);
         $("#selected-count").html(occurrencesOfWord);
         $("#bolded-passage").html(boldPassage(word, passage))
+        $("#common-count").html()
     });
 });

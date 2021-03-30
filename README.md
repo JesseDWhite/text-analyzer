@@ -1,13 +1,13 @@
-# _{Application Name}_
-#### _{Brief description of application}_
-#### By _**{List of contributors}**
+# _text-analyzer_
+#### _An application to find the selected word in a sentence and highlight them._
+#### By _Jsse White_
 ## Technologies Used
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here
+* _HTML_
+* _Javascript_
+* _CSS_
+* _VS Code_
 ## Description
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+This application will take any amount of user input and will then tell them the total number of words used in the given paragraph. The user can then select a certain word that they want to highlight and it will highlight all words in the paragraph that match that description.
 ## Setup/Installation Requirements
 * _This is a great place_
 * _to list setup instructions_
@@ -124,3 +124,12 @@ const word = "hello";
 const text = "hello there";
 boldPassage(word, text);
 Expected Output: "<p>hello <b>there</b></p>"
+
+### Decribe: mostCommonWords()
+
+Test: "It should return the most common word in the text."
+Code:
+const word = "hello hello";
+const text = "there";
+mostCommonWords(word, text);
+Expected Output: hello
