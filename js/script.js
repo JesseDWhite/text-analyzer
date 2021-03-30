@@ -1,9 +1,11 @@
 // utility logic
+
 function noInputtedWord(word, text) {
     return ((text.trim().length === 0) || (word.trim().length === 0));
 }
 
 //business interface logic
+
 function wordCounter(text) {
     if (text.trim().length === 0) {
         return 0;
@@ -14,7 +16,7 @@ function wordCounter(text) {
         if (!Number(element)) {
             wordCount++;
         }
-    })
+    });
     return wordCount;
 }
 
@@ -33,14 +35,15 @@ function numberOfOccurrencesInText(word, text) {
 }
 
 //user-interface logic
+
 function boldPassage(word, text) {
     if (noInputtedWord(word, text)) {
-        return "";
+        return ""
     }
     let htmlString = "<p>"
     let textArray = text.split(" ");
     textArray.forEach(function (element, index) {
-        if (element.toLowerCase().includes(word.toLowerCase())) {
+        if (element.toLowerCase().startsWith(word.toLowerCase()) && element.toLowerCase().endsWith(word.toLowerCase())) {
             htmlString = htmlString.concat("<b>" + element + "</b>");
         } else {
             htmlString = htmlString.concat(element);
@@ -64,6 +67,7 @@ $(document).ready(function () {
         $("#total-count").html(wordCount);
         $("#selected-count").html(occurrencesOfWord);
         $("#bolded-passage").html(boldPassage(word, passage))
-        $("#common-count").html()
     });
 });
+
+// here is a short text passage with a second here for you to see.But then I will throw in a there just to make it confusing since it will still highlight it as if it were a here.

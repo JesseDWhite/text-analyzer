@@ -17,7 +17,7 @@ This application will take any amount of user input and will then tell them the 
 ## Known Bugs
 * _If a word contains a match at all, it will highlight that word. Example: "check" in "paycheck" will come back as a match if the word you are looking for is "check"._
 ## License
-_MIT (C) 2021 Jesse White 2021_
+_MIT (C) 2021 Jesse White_
 ## Contact Information
 Jesse White _jesse.white6@gmail.com_
 
