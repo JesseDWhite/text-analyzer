@@ -4,3 +4,7 @@ b {
 #bolded-passage {
     font-size: 30px;
 }
+body {
+    background-color: lightgray;
+    margin: 20px;
+}
